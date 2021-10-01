@@ -109,39 +109,4 @@ function calcularTiempoRestante() {
 calcularTiempoRestante();
 var intervalo = setInterval(cuentaAtras, 1000);
 
-
-// swiper
-var swiper = new Swiper(".swiper", {
-  // Optional parameters
-  grabCursor: true,
-  slidesPerView: 3,
-  grid: {
-    rows: 2,
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-      grid: {
-        rows: 1,
-      }
-    }, 
-    1024: {
-      slidesPerView: 2,
-      grid: {
-        rows: 2,
-      }
-    },
-    1440: {
-      slidesPerView: 3,
-      grid: {
-        rows: 2,
-    },
-    }
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  }
 });
